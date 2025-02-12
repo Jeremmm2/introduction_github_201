@@ -3,20 +3,30 @@
         <title>Ako Ay May Lobo</title>
     
     </head>
+   
     <body style = "text-align: center;">
+    
         <h1> Ako Ay May Lobo</h1>
 
         <img src="Ako_ay_may_lobo.jpg" />
 
         <div>
-            <p> Ako ay may lobo
-                Lumipad sa langit</p>
-            <p>  Di ko na nakita
-                    Pumutok na pala </p>
-            <p>  Sayang ang pera ko
-                Binili ng lobo </p>
-            <p>Sa pagkain sana
-                Nabusog pa ako</p>
+            <!-- onlick, .innerHTML ='Ako ay may lobo' -->
+            <p 
+                id="demo"
+                onclick="document
+                        .getElementById ('demo')
+                        .innerHTML='Ako ay may lobo' "> Lumipad sa langit
+        
+            </p>       
+            <!-- ondblclick, .style.backgroundColor='green' -->
+            <p ondblclick="this.style.backgroundColor='green'">  Di ko na nakita Pumutok na pala, </p>
+
+            <!--onmouseover, .style.fontSize='60px'-->
+            <p onmouseover="this.style.fontSize='60px'">Sayang ang pera ko Binili ng lobo</p>
+
+            <!-- onmouseout, .style.color='red' -->
+            <p onmouseout="this.style.color='red'"> Sa pagkain sana Nabusog pa ako </p>
         </div>
     </body>
 </html>
